@@ -1,0 +1,33 @@
+
+.highlight {
+  background: linear-gradient(rgba(255, 255, 255, 0.1), #000000);
+  opacity: 0.1;
+  display: inline-block;
+  width: 25rem;
+  height: 50rem;
+  position: absolute;
+}
+
+.highlight.highlight--top-left {
+  transform: rotate(-44deg);
+  top: -10rem;
+  right: -20rem;
+}
+
+.highlight.highlight--top-right {
+  transform: rotate(44deg);
+  top: -2rem;
+  left: -20rem;
+}
+
+.highlight.highlight--bottom-left {
+  transform: rotate(-136deg);
+  top: -15rem;
+  right: -20rem;
+}
+
+.highlight.highlight--bottom-right {
+  transform: rotate(136deg);
+  top: -15rem;
+  left: -25rem;
+}
