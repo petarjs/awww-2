@@ -5,7 +5,7 @@
     </div>
 
     <div class="container mx-auto p-2 lg:mt-4 inline-block text-2xl leading-normal font-light">
-      <a class="inline-block text-black hover:text-orange" href="#">
+      <a class="inline-block text-black hover:text-orange" href="/blog/7-unexpected-ways-to-increase-happiness-right-now">
         <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
           <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
           <div class="px-6 py-4">
@@ -16,8 +16,8 @@
           </div>
           <div class="px-6 py-4">
             <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#happiness</span>
-            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#stress</span>
-            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#lifehacks</span>
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#stress</span>
+            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#lifehacks</span>
           </div>
         </div>
       </a>

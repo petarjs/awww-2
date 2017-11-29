@@ -12,3 +12,16 @@
 * {
   box-sizing: border-box;
 }
+
+a {
+  color: #f6993f;
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+a:hover {
+  color: orange;
+}

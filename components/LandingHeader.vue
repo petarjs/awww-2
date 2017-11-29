@@ -13,7 +13,7 @@
 
       <div class="lg:pl-8">
         <div class="ml-4 mr-4 lg:ml-8 lg:mr-0 mt-4 lg:mt-8 bg-black-transparent text-white text-xl lg:text-2xl leading-normal text-left w-500 p-3">
-          <a href="#">De-stress</a> and <a href="#">increase happiness</a> with our lovingly
+          <a href="http://www.sciencealert.com/watching-cat-videos-lowers-stress-and-makes-you-happy-study-reveals">De-stress</a> and <a href="http://www.independent.co.uk/life-style/health-and-families/features/why-cute-photos-of-animals-make-us-happier-10332916.html">increase happiness</a> with our lovingly
           handpicked images and videos of cutest animals that arrive in your email inbox every day.
         </div>
       </div>

@@ -17,7 +17,7 @@
       </template>
 
       <template slot="content">
-        <a href="#">Recent research</a> shows that looking at cute animal pictures 🐼 instantly improves your mood. Cute animal images give you positive vibes 😆 and make you happier by taking only a few minutes a day to enjoy them.
+        <a href="http://www.sciencealert.com/watching-cat-videos-lowers-stress-and-makes-you-happy-study-reveals">Recent research</a> shows that looking at cute animal pictures 🐼 instantly improves your mood. Cute animal images give you positive vibes 😆 and make you happier by taking only a few minutes a day to enjoy them.
       </template>
     </awww-section>
 
@@ -38,7 +38,7 @@
       </template>
 
       <template slot="content">
-        Cute animal images trigger production of your “happy hormone” 😂. Apart for making you happy, looking at cute animal images also makes you <a href="#">more productive</a>! A perfect combination to help you feel great at work and at home. 💪 🏢 🏠
+        Cute animal images trigger production of your “happy hormone” 😂. Apart for making you happy, looking at cute animal images also makes you <a href="http://www.psychologicalscience.org/news/minds-business/the-power-of-puppies-looking-at-cute-images-can-improve-focus.html#.WKBRkhIrJE4">more productive</a>! A perfect combination to help you feel great at work and at home. 💪 🏢 🏠
       </template>
     </awww-section>
 
@@ -102,18 +102,4 @@ export default {
 </script>
 
 <style>
-
-a {
-  color: #f6993f;
-  text-decoration: none;
-}
-
-input {
-  outline: none;
-}
-
-a:hover {
-  color: orange;
-}
-
 </style>

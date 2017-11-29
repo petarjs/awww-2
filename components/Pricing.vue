@@ -81,11 +81,11 @@
       </div>
     </div>
 
-    <div class="container mx-auto px-4 py-2">
+    <!--<div class="container mx-auto px-4 py-2">
       <a href="#" class="w-full max-w-full inline-block text-center text-lg border border-grey-light hover:border-orange-light rounded-lg p-4">
         Company? We've got special packages for you! 👌
       </a>
-    </div>
+    </div>-->
 
   </section>
 </template>

@@ -7,14 +7,14 @@
     <div class="flex w-full lg:w-1/2 mx-auto -mt-8">
       <div class="flex-1">
         <ul class="list-reset">
-          <li class="mb-4"><a href="#" class="text-black hover:text-grey-darker">Privacy Policy</a></li>
-          <li class="mb-4"><a href="#" class="text-black hover:text-grey-darker">Terms of Use</a></li>
+          <li class="mb-4"><a href="/privacy-policy" class="text-black hover:text-grey-darker">Privacy Policy</a></li>
+          <li class="mb-4"><a href="/terms-of-use" class="text-black hover:text-grey-darker">Terms of Use</a></li>
         </ul>
       </div>
       <div class="flex-1">
         <ul class="list-reset">
-          <li class="mb-4"><a href="#" class="text-black hover:text-grey-darker">Blog</a></li>
-          <li class="mb-4"><a href="#" class="text-black hover:text-grey-darker">FAQ</a></li>
+          <li class="mb-4"><a href="/posts" class="text-black hover:text-grey-darker">Blog</a></li>
+          <li class="mb-4"><a href="/faq" class="text-black hover:text-grey-darker">FAQ</a></li>
         </ul>
       </div>
       <div class="flex-1">
