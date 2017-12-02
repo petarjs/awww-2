@@ -19,8 +19,11 @@
       </div>
 
       <div class="lg:ml-8 lg:pl-8 mt-4 lg:mt-8 lg:text-left pl-4 pr-4 lg:pr-0">
-        <input class="rounded border-0 p-2 pl-4 pr-4 lg:p-4 w-full lg:w-64 lg:text-lg leading-loose lg:leading-normal" type="email" placeholder="Your Email 💌">
-        <button class="rounded bg-green hover:bg-green-light p-4 lg:p-4 mt-2 lg:mt-0 lg:-ml-2 text-white lg:text-lg lg:leading-normal">Get Your Invite 💪</button>
+        <form action="https://ooo.us17.list-manage.com/subscribe/post?u=eade1f006b2b21eba3732d565&amp;id=e7c7f92710" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <input name="EMAIL" class="rounded border-0 p-2 pl-4 pr-4 lg:p-4 w-full lg:w-64 lg:text-lg leading-loose lg:leading-normal" type="email" placeholder="Your Email 💌">
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_eade1f006b2b21eba3732d565_e7c7f92710" tabindex="-1" value=""></div>
+          <button type="submit" name="subscribe" class="rounded bg-green hover:bg-green-light p-4 lg:p-4 mt-2 lg:mt-0 lg:-ml-2 text-white lg:text-lg lg:leading-normal">Get Your Invite 💪</button>
+        </form>
       </div>
 
       <div class="text-white mt-2 mb-2 lg:mt-4 lg:ml-8 lg:pl-8 lg:text-left">
