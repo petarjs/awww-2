@@ -42,12 +42,12 @@
         <h2 class="mb-4">
           5. Dance (Alone)
         </h2>
-        <p class="mb-8 pb-4"></p>
+        <p class="mb-8 pb-4">Did you know that dancing <a href="http://www.telegraph.co.uk/good-news/seven-seas/why-dancing-feels-good/">reduces cortisol</a>? And it also makes you happy by releasing <a href="https://psychology-spot.com/dancing-makes-me-happy/">endorphins</a>. Dancing is awesome, but in our civilisation it's reserved for special occasions. Just getting up an starting dancing might get you strange looks from the people around you. You might also feel uncomfortable dancing to your fulest around others if you are an introvert. So try getting alone, lock the door, play some music you love and start dancing like no one is watching! You'll feel great!</p>
 
         <h2 class="mb-4">
           6. Listen to sad music
         </h2>
-        <p class="mb-8 pb-4">While it may sound contradictory, <a href="http://www.huffingtonpost.com/entry/why-we-like-sad-music_us_562a52a8e4b0aac0b8fc9e99">study</a> shows that sad music helps us feel better by boosting positive feelings.</p>
+        <p class="mb-8 pb-4">While it may sound contradictory, <a href="http://www.huffingtonpost.com/entry/why-we-like-sad-music_us_562a52a8e4b0aac0b8fc9e99">study</a> shows that sad music helps us feel better by boosting positive feelings. It also makes us feel catharsis, providing an emotional release. In a busy world, we often overlook how many negative emotions we have bottled up, and getting them released feels powerful and healing.</p>
 
         <h2 class="mb-4">
           7. Give a massage
