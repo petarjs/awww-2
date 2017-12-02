@@ -1,11 +1,11 @@
 <template>
-  <section class="lg:mb-8 text-center">
+  <section class="lg:mb-8 text-center" ref="subscribePromo">
     <div class="text-center mt-8 pt-8 mb-8">
       <h2 class="text-medium text-5xl">Get Started Today 📅</h2>
     </div>
 
     <div class="container mx-auto p-2 lg:mt-4 inline-block text-2xl leading-normal font-light">
-      There's so much <span class="font-medium">cutenes</span> all around us. <br>
+      There's so much <span class="font-medium">cuteness</span> all around us. <br>
       Take a moment <span class="font-medium">every day</span> to enjoy it.
     </div>
 
@@ -13,11 +13,38 @@
       <input class="rounded-lg border border-dark-grey p-2 pl-4 pr-4 lg:p-4 w-full lg:w-64 lg:text-lg leading-loose lg:leading-normal" type="email" placeholder="Your Email 💌">
       <button class="rounded-lg bg-green hover:bg-green-light p-4 lg:p-4 mt-2 lg:mt-0 lg:-ml-2 text-white lg:text-lg lg:leading-normal">Get Your Invite 💪</button>
     </div>
+
+    <span v-if="showSubscribe" class="p-4 border border-green mx-4 lg:mx-auto rounded-lg inline-block mt-8 text-green">
+      Please enter your email here and we'll notify you when we launch Awww! 🎁
+    </span>
   </section>
 </template>
 
 <script>
+import bus from '~/services/bus'
+import Vue from 'vue'
+
 export default {
+  data () {
+    return {
+      showSubscribe: false
+    }
+  },
+  created () {
+    bus.$on('pricing:show-subscribe', this.onShowSubscribe.bind(this))
+  },
+  destroyed () {
+    bus.$off('pricing:show-subscribe')
+  },
+  methods: {
+    onShowSubscribe () {
+      this.showSubscribe = true
+      Vue.nextTick(() => {
+        let container = this.$refs.subscribePromo
+        window.scroll(0, container.offsetTop - 10)
+      })
+    }
+  },
   components: {}
 }
 </script>

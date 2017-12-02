@@ -2,7 +2,7 @@
   <section class="container mx-auto">
     <div class="column text-center mb-6 mt-6">
         <a href="/">
-            <img src="~/assets/images/logo.png" alt="" width="200px">
+            <img src="~/assets/images/logo-dark.png" alt="" width="200px">
         </a>
     </div>
 

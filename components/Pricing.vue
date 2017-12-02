@@ -27,7 +27,7 @@
             Only Images ✅
           </div>
           <div class="text-lg font-light p-8">
-            <a href="#" class="font-medium p-3 bg-green text-white rounded-lg hover:text-white hover:bg-green-light">Get it now!</a>
+            <a href="#" @click.prevent="onBuy" class="font-medium p-3 bg-green text-white rounded-lg hover:text-white hover:bg-green-light">Get it now!</a>
           </div>
         </div>
 
@@ -51,7 +51,7 @@
             Images &amp; Videos ✅
           </div>
           <div class="text-lg font-light p-8">
-            <a href="#" class="font-medium p-3 bg-green text-white rounded-lg hover:text-white hover:bg-green-light">Get it now!</a>
+            <a href="#" @click.prevent="onBuy" class="font-medium p-3 bg-green text-white rounded-lg hover:text-white hover:bg-green-light">Get it now!</a>
           </div>
         </div>
 
@@ -75,7 +75,7 @@
             Images &amp; Videos ✅
           </div>
           <div class="text-lg font-light p-8">
-            <a href="#" class="font-medium p-3 bg-green text-white rounded-lg hover:text-white hover:bg-green-light">Get it now!</a>
+            <a href="#" @click.prevent="onBuy" class="font-medium p-3 bg-green text-white rounded-lg hover:text-white hover:bg-green-light">Get it now!</a>
           </div>
         </div>
       </div>
@@ -86,13 +86,24 @@
         Company? We've got special packages for you! 👌
       </a>
     </div>-->
+    <div class="container mx-auto px-4 py-2">
+      <div class="w-full max-w-full inline-block text-center text-lg border border-grey-light rounded-lg p-4">
+        Company? Special packages for you comming soon! 👌
+      </div>
+    </div>
 
   </section>
 </template>
 
 <script>
+import bus from '~/services/bus'
 export default {
-  components: {}
+  components: {},
+  methods: {
+    onBuy () {
+      bus.$emit('pricing:show-subscribe')
+    }
+  }
 }
 </script>
 

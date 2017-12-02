@@ -63,7 +63,7 @@
       </template>
     </awww-section>
 
-    <testemonials></testemonials>
+    <!--<testemonials></testemonials>-->
 
     <pricing></pricing>
 

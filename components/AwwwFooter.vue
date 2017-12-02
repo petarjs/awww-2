@@ -19,7 +19,6 @@
       </div>
       <div class="flex-1">
         <ul class="list-reset">
-          <li class="mb-4"><a href="#" class="text-black hover:text-grey-darker">Press Kit</a></li>
           <li class="mb-4"><a href="#" class="text-black hover:text-grey-darker">Contact</a></li>
         </ul>
       </div>
