@@ -3,11 +3,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'awww-landing-vue',
+    title: 'Awww - Cute Animal Images and Videos',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
-      { hid: 'description', name: 'description', content: 'Awww - Cute Animal Images and Videos' }
+      { hid: 'description', name: 'description', content: 'Awww - Get cute animal images and videos delivered to your email daily!' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
