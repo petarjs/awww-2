@@ -56,7 +56,7 @@
             What if I don't like the what I'm getting?
           </h2>
           <p class="leading-normal text-lg font-light awww-section__content mb-8">
-            We will refund you in full in 30 after purchase.
+            We will refund you in full in 30 days after purchase.
           </p>
 
           <h2 class="leading-normal text-center lg:text-left text-2xl mb-8 font-medium awww-section__title">
