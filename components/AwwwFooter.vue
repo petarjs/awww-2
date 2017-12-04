@@ -19,7 +19,7 @@
       </div>
       <div class="flex-1">
         <ul class="list-reset">
-          <li class="mb-4"><a href="#" class="text-black hover:text-grey-darker">Contact</a></li>
+          <li class="mb-4"><a href="mailto:petar@petar.io" class="text-black hover:text-grey-darker">Contact</a></li>
         </ul>
       </div>
     </div>
