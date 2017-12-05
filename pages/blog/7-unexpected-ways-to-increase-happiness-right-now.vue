@@ -77,6 +77,27 @@ export default {
   computed: {
     title () {
       return `7 Unexpected Ways to Increase Happiness Right Now`
+    },
+    desc () {
+      return `Learn about some great ways to be happier! Here is a list of 7 practical things you can start doing right now and feel immediate benefits.`
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: this.desc
+      }, {
+        hid: 'og:title',
+        name: 'og:title',
+        content: this.title
+      }, {
+        hid: 'og:og:description',
+        name: 'og:og:description',
+        content: this.desc
+      }]
     }
   },
   components: {
