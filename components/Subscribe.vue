@@ -1,5 +1,5 @@
 <template>
-  <section class="lg:mb-8 text-center" ref="subscribePromo">
+  <section class="bg-yellow-dark text-center subscribe" ref="subscribePromo">
     <div class="text-center mt-8 pt-8 mb-8">
       <h2 class="text-medium text-5xl">Get Started Today 📅</h2>
     </div>
@@ -53,4 +53,8 @@ export default {
 </script>
 
 <style scoped>
+.subscribe {
+  padding-bottom: 180px;
+  padding-top: 20px;
+}
 </style>

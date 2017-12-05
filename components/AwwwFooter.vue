@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-yellow-dark lg:mt-8 inline-block w-full text-center">
+  <footer class="bg-grey-dark inline-block w-full text-center">
     <div class=" lg:mt-8">
       <img src="~/assets/images/footer.png" class="pull-up">
     </div>

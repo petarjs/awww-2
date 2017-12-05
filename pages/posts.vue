@@ -13,19 +13,17 @@
         </div>
 
         <div class="container mx-auto p-2 lg:mt-4 inline-block text-2xl leading-normal font-light">
-          <a class="inline-block text-black hover:text-orange" href="/blog/7-unexpected-ways-to-increase-happiness-right-now">
+          <a v-for="post in blogPostList" :key="post.title" class="m-2 inline-block text-black hover:text-orange" :href="post.link">
             <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
-              <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+              <img class="w-full" :src="post.image">
               <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">7 Unexpected Ways to Increase Happiness Right Now</div>
+                <div class="font-bold text-xl mb-2">{{ post.title }}</div>
                 <p class="text-grey-darker text-base">
-                  We all get unhappy sometimes. The burden of everyday life, our responsibilities and chores can come crashing down on us hard...
+                  {{ post.desc }}
                 </p>
               </div>
               <div class="px-6 py-4">
-                <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#happiness</span>
-                <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#stress</span>
-                <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#lifehacks</span>
+                <span v-for="tag in post.tags" :key="tag" class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#{{ tag }}</span>
               </div>
             </div>
           </a>
@@ -40,8 +38,14 @@
 </template>
 <script>
 import AwwwFooter from '~/components/AwwwFooter.vue'
+import blogPostList from '~/services/blogPostList'
 
 export default {
+  data () {
+    return {
+      blogPostList
+    }
+  },
   computed: {
   },
   components: {

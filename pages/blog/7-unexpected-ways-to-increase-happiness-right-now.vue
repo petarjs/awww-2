@@ -53,6 +53,11 @@
           7. Give a massage
         </h2>
         <p class="lg:mb-8 pb-4">When you imagine a massage, the first thing that comes to mind is that the only one enjoying it is the one receiving it. But that's not exactly true. <a href="https://www.medicalnewstoday.com/articles/317315.php">Recent research</a> has found that when you give a massage, you get the same stress reducing benefits that receiving a massage so famously has. It's the magic of human touch. If you're massaging your partner or a friend, all that touching creates a bonding experience and <a href="http://www.hugthemonkey.com/2008/07/finally-massage-increases-oxytocin.html">releases oxytocin</a>. Another way you can de-stress is if your  massage partner enjoys rough massages. You can then energetically rub, squish and knead until all the negative energy is out!</p>
+
+        <h2 class="mb-4">
+          Over to you
+        </h2>
+        <p class="lg:mb-8 pb-4">Now, it's time to give some of these a try! Pick your favorite 3 items from this list, and try them today. Oh, and also, take a minute to subscribe to Awww below! We are working on the platform as we speak, and it's going to be awesome! You know the old saying - a cute image a day keeps the strees away! 😂</p>
       </div>
 
     </div>
@@ -60,8 +65,6 @@
     <div class="lg:mb-8"></div>
 
     <subscribe></subscribe>
-
-    <br><br><br><br><br><br><br><br><br><br>
 
     <awww-footer></awww-footer>
   </div>
@@ -73,7 +76,7 @@ import AwwwFooter from '~/components/AwwwFooter.vue'
 export default {
   computed: {
     title () {
-      return this.$route.params.slug.replace(/-/g, ' ')
+      return `7 Unexpected Ways to Increase Happiness Right Now`
     }
   },
   components: {

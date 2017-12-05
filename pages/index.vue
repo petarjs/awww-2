@@ -73,8 +73,6 @@
 
     <subscribe></subscribe>
 
-    <br><br><br><br><br><br><br><br><br><br>
-
     <awww-footer></awww-footer>
   </div>
 </template>
